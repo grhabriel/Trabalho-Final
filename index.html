@@ -7,21 +7,37 @@
         <title>Cafeteria</title>
     </head>
     <body>
-        <nav>
-            <img src="imgs/menu_transparente.png" alt="">
-            <a href="index.html#historia">História</a>
-            <a href="index.html#produtos">Produtos</a>
-            <a href="index.html#localizacao">Localização</a>
-            <a title="Nosso cardápio" href="menu.html">Menu</a>
-            <a title="Conheça o criador" href="creditos.html">Creditos</a>
-        </nav>
+        <div class="tituloSlogan">
+           <a id="titulo" href="index.html"> <h1>Cafeteria Central</h1> </a> 
+            <nav>
+                <a href="index.html#historia">História</a>
+                <!-- <a href="index.html#produtos">Produtos</a> -->
+                <a href="index.html#localizacao">Localização</a>
+                <a title="Nosso cardápio" href="menu.html">Menu</a>
+                <a title="Conheça o criador" href="creditos.html">Creditos</a>
+                </nav>    
+        </div>
+
+        
+        <section class="banner">
+            <p id="mensagem">
+                Experimente nosso delicioso café com pitada de canela
+            </p>
+            <img src="bannner/banner1.jpg">
+            <span>  <p> > </p> </span>
+            <span id="esquerda">  <p> < </p> </span>
+        </section>
+
         <header>
             <h1>Cafeteria Central</h1>
             <p>O melhor café da sua vida!</p>
         </header>
+
+        
+
         <main>
             
-        </main>
+        
             <h1 id="historia">Nossa História</h1>
             <p>
                 Surgimos no ano de 2016, com o objetivo de trazer o 
@@ -42,7 +58,7 @@
                 <li>Reunir diversas referências, estamos abertos a todas as críticas e sempre buscamos melhorar</li>
             </ul>
 
-            <h1>Nossos Produtos</h1>
+            <!-- <h1>Nossos Produtos</h1>
             <section class="produtos">
                 <article class="itens">
                     <h2>Grãos Especiais</h2>
@@ -140,10 +156,10 @@
                             <img src="imgs/bubbleTea.jpg" alt="Bubble Tea">
                         </div>
                     </div>
-                </article>
-            </section>
+                </article> -->
+            <!-- </section> -->
             <p>Não deixe de conferir todo o nosso <a title="Menu completo" href="menu.html">Menu</a>!</p>
-
+        
             <section class="localizacao">
                 <h1 id="localizacao">Localização</h1>
                 <img src="imgs/fotoDaLoja.jpg" alt="Foto de nossa Loja">    
@@ -154,12 +170,12 @@
                     visita.
                 </p>
             </section>
-            
+        </main>
         <footer>
             <p>Endereço: Rua Topzeira</p>
             <p>Telefone de Contato: 4002-8922</p>
             <p>Todos os direitos reservados</p>
         </footer>
-        
+        <script src="script.js"></script>
     </body>
 </html>
