@@ -3,4 +3,4 @@
 -Kkk olha o background ae man  *Done
 -Scroll é coisa de não         *Done
 -O menu é bom ser universal    *Done
--Banner                        *Não fazer
+-Banner                        *Done

@@ -41,7 +41,7 @@ main{
 }
 
 h1,h2{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     text-align: center;
     color: moccasin;
 }
@@ -161,10 +161,10 @@ li{
     height: 200px;
     border-radius: 200px;
     border: 2px solid black;
-    margin: 0px 3px 4px 10px;
+    margin: 0px 20px 4px 10px;
 }
 .localizacao p{
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
 }
 .localizacao h1{
@@ -238,13 +238,6 @@ li{
 }
 
 
-/* .banner p{
-    width: 90%;
-    position: absolute;
-    top: 0px;
-    left: 10%;
-    opacity: 0;
-} */
 
 
 .banner span:hover{
@@ -252,35 +245,32 @@ li{
     transition-duration: 0.5s;
 }
 
-/* .banner span p{
-    opacity: 0;
-} */
-
 .banner span p{
     font-size: x-large;
     font-weight: bold;
     position: absolute;
     color: black;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 150%;
     right: 2.5%;
-    top: 43%;
-    background-color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 13px;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.679);
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 7px;
     text-align: center;
 }
 
 #esquerda{
     position: absolute;
     left: 80px;
-    top: 43%;
+    top: 50%;
 }
 
 .banner span p:hover{
-    background-color: rgba(48, 14, 14, 0.9) ;
+    border-color:blanchedalmond ;
+    background-color: rgba(106, 44, 44, 0.9) ;
     transition-duration: 0.5s;
 }
 
@@ -293,7 +283,7 @@ li{
     top: -100%;
     text-align: center;
     padding: 15px;
-    width: 30%;
+    width: 40%;
 }
 
 .mouseEmcima{
@@ -305,7 +295,38 @@ li{
     font-size: large;
     position: absolute;
     top: 800px;
-    width: 30%;
+    width: 40%;
     left: 30px;
     border-radius: 15px;
+}
+
+
+#mapa{
+    margin-top: 0%;
+    text-align: left;
+}
+
+#mapa h3{
+    padding-left: 35px;
+    background-image: url(imgs/icone_lateral.png );
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin-bottom: 0.1em;
+}
+#mapa p{
+    padding: 0.5%;
+}
+
+#mapa img{
+    float: right;
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+#mapa div{
+    border-bottom: 2px solid black;
+    clear: both;
 }
